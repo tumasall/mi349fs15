@@ -12,8 +12,11 @@ body {
 	margin: 1.5em auto;
 	border-color: #000000;
 	border-width: 10px;
-	padding: 50px;
 	background-color: #fff;
+	background-image: url("onion_dip.jpeg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 50px;
 }
 
 h1 {
@@ -21,7 +24,7 @@ h1 {
 	background-color: #fff;
 	color: #000000;
 	font-family: cursive;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: lighter;
 }
 
@@ -35,13 +38,20 @@ h2 {
 
 ul {
 	color: #000000;
-
+	list-style-type: none;
+	text-align: center;
 }
+
 
 p {
 	color: #000000;
 }
 
+div {
+	background-color: #FFEBCD;
+	border-style: ridge;
+	padding: 10px;
+}
 
 img {
 	border-color: #800000;
@@ -49,7 +59,18 @@ img {
 	align-content: center;
 }
 
+#header {
+	text-align: left;
+	width: 320px;
+	margin-top: 1px;
+}
 
+.notepad {
+	text-align: center;
+	font-family: cursive;
+	font-weight:lighter;
+	padding-left: 5px;
+}
 
 a {
   font-weight: bold;
