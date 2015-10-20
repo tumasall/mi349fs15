@@ -1,0 +1,78 @@
+/*
+Navy: #001f3f;
+Blue: #336699;
+Tan: #CDAF95;
+White: #FFFFFF;
+Brown: #60360F;
+
+*/
+
+html {
+	background-color: #001f3f;
+}
+
+body {
+  width: 1250px;
+	border-width: 5px;
+	margin: 1.5em auto;
+}
+
+div, .header {
+ border: 5px solid;
+ border-color: #ffffff;
+ background-color: #CDAF95;
+ padding: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#nav {
+	list-style-type:none;
+	text-align: center;
+	width: 100%;
+	border:thick;
+	border-color:#E09899;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+
+}
+
+#nav li {
+	list-style-type: none;
+	float: left;
+	padding-left: 12px;
+}
+
+#nav a {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color:#001f3f;
+	font-size:24px;
+	font-weight:bold;
+	text-decoration: none;
+	border-color:#ffffff;
+	border:thick 10px;
+	width: 50px;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#nav a:hover {
+	color:#651D9F;
+}
+
+.content {
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color: #fff;
+	border-color: #CDAF95;
+}
