@@ -1,88 +1,67 @@
+/*
+Navy: #001f3f;
+Blue: #336699;
+Tan: #CDAF95;
+White: #FFFFFF;
+Brown: #60360F;
 
+*/
 
 html {
-	background-color: #000;
+	background-color: #001f3f;
 }
 
 body {
-	width: 761px;
+  width: 1250px;
+	border-width: 5px;
 	margin: 1.5em auto;
-	border-color: #000000;
-	border-width: 10px;
-	background-color: #fff;
-	padding: 50px;
+}
+
+div, .header {
+ border: 5px solid;
+ border-color: #ffffff;
+ background-color: #CDAF95;
+ padding: 30px;
+}
+
+.header {
+
 }
 
 h1 {
 	text-align: center;
-	background-color: #fff;
-	color: #000000;
-	font-family: cursive;
-	font-size: 30px;
-	font-weight: lighter;
-}
-
-h2 {
-	padding: 7px;
-	color: #000000;
-	text-decoration: underline;
-	font-weight:lighter;
-}
-
-h3 {
-	color: #55ABFF;
-}
-
-
-ul {
-	color: #000000;
-	list-style-type: none;
-	text-align: center;
-}
-
-
-p {
-	color: #000000;
-}
-
-div {
-	background-color: #FFEBCD;
-	border-style: ridge;
-	padding: 10px;
-}
-
-img {
-	border-color: #800000;
-	border-width: 5px;
-	align-content: center;
-  padding: 30px;
 }
 
 #nav {
 	list-style-type:none;
 	text-align: center;
-	background-color:#F3E7E8;
-	width: 50px;
-	padding: 5px;
-	padding-right: 700px;
+	width: 100%;
 	border:thick;
 	border-color:#E09899;
 }
 
-#nav li {
-	display: inline;
-	align-items:flex-start;
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
 
 }
 
+#nav li {
+	list-style-type: none;
+	float: left;
+	padding-left: 12px;
+}
 
 #nav a {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	color:#F69698;
-	font-size:18px;
-	border-color:#F69293;
-	border:thick 10px;
+	color:#001f3f;
+	font-size:24px;
+	font-weight:bold;
 	text-decoration: none;
+	border-color:#ffffff;
+	border:thick 10px;
+	width: 50px;
 	text-align: center;
 	padding-right: 50px;
 	padding-left: 50px;
@@ -92,48 +71,29 @@ img {
 
 #nav a:hover {
 	color:#651D9F;
-
-ul#nav {
-	margin: 0px:
 }
 
-
-
-.header {
-	display: inline-block;
-	width: 320px;
-	margin-top: 1px;
+.content {
+	height: 200px;
 }
 
-.notepad, .notepad ul {
-	text-align: center;
-	font-family: cursive;
-	font-weight:lighter;
-	padding-left: 5px;
+.links {
+	height: 400px;
 }
 
-
-a:link {
-font-weight:bold;
-color: blue;
-text-decoration: underline;
-
+.student {
+	float: right;
+	width: 810px;
+	height: 600px;
+	background-color: #fff;
+	border-color: #CDAF95;
 }
 
-a:visited {
-  color: purple;
-  font-weight: bold;
-  text-decoration: underline;
+aside {
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color: #fff;
+	border-color: #CDAF95;
 
-}
-
-a:hover{
-  text-decoration: underline;
-  color: #000000;
-  background: #8A2BE2;
-  font-weight: bold;
-}
-
-ul li:nth-child(1n){
-  border-bottom: 1px solid #000000;
 }
