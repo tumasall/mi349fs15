@@ -1,0 +1,54 @@
+/*
+Navy: #001f3f;
+Blue: #336699;
+Tan: #CDAF95;
+White: #FFFFFF;
+Brown: #60360F;
+
+*/
+
+html {
+	background-color: #ffffff;
+}
+
+div {
+	border-color: #000000;
+}
+
+
+@media (min-width: 400px) and (max-width:799px) {
+	.column-left {
+		 float: left; width: 100%;
+	 }
+	.column-right {
+		float: right; width: 100%;
+	 }
+	.column-center {
+		 display: inline-block; width: 100%;
+	 }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+	.column-left {
+		 float: left; width: 50%;
+	 }
+	.column-right {
+		float: right; width: 50%;
+	 }
+	.column-center {
+		 display: inline-block; width: 33%;
+	 }
+}
+
+@media (min-width: 1200px) {
+		.column-left {
+			 float: left; width: 33%;
+		 }
+		.column-right {
+			float: right; width: 33%;
+		 }
+		.column-center {
+			 display: inline-block; width: 33%;
+		 }
+	}
+}
