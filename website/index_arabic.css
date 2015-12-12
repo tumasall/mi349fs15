@@ -83,6 +83,13 @@
   color: #00b0ff;
 }
 
+.fixedTop {
+  position: fixed;
+  width: 850px;
+  margin: 0 auto;
+  top: 0px;
+}
+
 @media (min-width: 400px) and (max-width:799px) {
 	.conatiner{
 		 float: left; width: 100%;

@@ -1,12 +1,11 @@
-var x = document.getElementById("thumbnail");
-var y = x.getElementsByTagName("img");
+<script type="text/javascript">
+$(document).ready(function(){
+  var nav = $('.nav');
+  var pos = nav.position();
 
-
-$('.thumbnail').click(function() {
-  $('img').animate({
-      width: "193px"
-    },
-    300);
+  $(window).scroll(function() {
+    var windowpos = $(window).scrollTop();
+      nav.addClass('fixedTop');
+  })
 });
-
-$(document).ready(studentcorner);
+</script>
