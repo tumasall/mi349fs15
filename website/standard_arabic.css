@@ -1,0 +1,76 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 250px;
+  background-color: #fff;
+}
+
+.jumbotron h1 {
+  color: #393c3d;
+  text-shadow: none;
+  font-size: 40px;
+  font-family:'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  color: #393c3d;
+  text-shadow: none;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.standard {
+    padding-top: 20px;
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+
+.standard p {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.learn-more {
+    background-color: #f7f7f7;
+    }
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+
+  @media (min-width: 400px) and (max-width:799px) {
+  	.conatiner{
+  		 float: left; width: 100%;
+  	 }
+  }
+  @media (min-width: 800px) and (max-width: 1199px) {
+  	.container{
+  		 float: left; width: 50%;
+  	 }
+
+  }
+  @media (min-width: 1200px) {
+  		.conatiner {
+  			 float: left; width: 33%;
+  	}
+  }

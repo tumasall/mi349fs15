@@ -1,0 +1,13 @@
+.box { /* defines class */
+  width: 40px; /* sets width */
+  height: 40px; /* sets height */
+  border: 3px solid; /* sets border */
+  margin: 5px; /* sets margin */
+  transition: all 0.5s; /* makes the active change smooth */
+}
+
+.active { /* what changes when action toggle is performed*/
+  background: red; /* sets default color */
+  width: 100px; /* width after hover*/
+  height: 50px; /* height after hover */
+}

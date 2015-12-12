@@ -1,99 +1,101 @@
-/*
-Navy: #001f3f;
-Blue: #336699;
-Tan: #CDAF95;
-White: #FFFFFF;
-Brown: #60360F;
-
-*/
-
-html {
-	background-color: #001f3f;
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
 }
 
-body {
-  width: 1250px;
-	border-width: 5px;
-	margin: 1.5em auto;
+.nav li {
+  display: inline;
 }
 
-div, .header {
- border: 5px solid;
- border-color: #ffffff;
- background-color: #CDAF95;
- padding: 30px;
+.jumbotron {
+  background-image: url("moulay.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 500px;
 }
 
-.header {
-
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
 }
 
-h1 {
-	text-align: center;
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
 }
 
-#nav {
-	list-style-type:none;
-	text-align: center;
-	width: 100%;
-	border:thick;
-	border-color:#E09899;
+.studyabroad {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+
+.studyabroad h2 {
+    color: #393c3d;
+    font-size: 24px;
+    }
+
+.studyabroad p {
+      font-size: 15px;
+      margin-bottom: 13px;
+        }
+
+.thumbnail {
+  height: 215px;
+  width: 285px;
+  border: 5px solid white;
+  padding: 0;
 }
 
-#nav ul {
-	margin: 0px;
-	padding: 0px;
-	white-space: nowrap;
-
+.thumbnail p {
+    display: none;
+    height: 205px;
+    width: 275px;
+    margin: 0;
+    padding: 0;
 }
 
-#nav li {
-	list-style-type: none;
-	float: left;
-	padding-left: 12px;
+
+.thumbnail:hover p {
+  display: block;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  color: #fff;
 }
 
-#nav a {
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	color:#001f3f;
-	font-size:24px;
-	font-weight:bold;
-	text-decoration: none;
-	border-color:#ffffff;
-	border:thick 10px;
-	width: 50px;
-	text-align: center;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+
+.learn-more {
+    background-color: #f7f7f7;
+    }
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-#nav a:hover {
-	color:#651D9F;
+.learn-more a {
+  color: #00b0ff;
 }
 
-.content {
-	height: 200px;
+@media (min-width: 400px) and (max-width:799px) {
+	.conatiner{
+		 float: left; width: 100%;
+	 }
 }
+@media (min-width: 800px) and (max-width: 1199px) {
+	.container{
+		 float: left; width: 50%;
+	 }
 
-.links {
-	height: 400px;
 }
-
-.student {
-	float: right;
-	width: 810px;
-	height: 600px;
-	background-color: #fff;
-	border-color: #CDAF95;
-}
-
-aside {
-	float: left;
-	width: 300px;
-	height: 200px;
-	background-color: #fff;
-	border-color: #CDAF95;
-
+@media (min-width: 1200px) {
+		.conatiner {
+			 float: left; width: 33%;
+	}
 }
