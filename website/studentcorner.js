@@ -9,4 +9,4 @@ $('.thumbnail').click(function() {
     300);
 });
 
-$(document).ready(main);
+$(document).ready(studentcorner);
